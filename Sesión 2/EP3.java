@@ -1,4 +1,4 @@
-public class ER3 {
+public class EP3 {
     public static void main(String[] args) {
         int b = 5;
         trianguloRecursivo1(b);
@@ -18,5 +18,4 @@ public class ER3 {
             
         trianguloHelper(n + 1, b);
     }
-}
-    
+}    

@@ -1,5 +1,5 @@
 import java.util.*;
-public class ER2 {
+public class EP2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("De qué tamaño es el vector?");

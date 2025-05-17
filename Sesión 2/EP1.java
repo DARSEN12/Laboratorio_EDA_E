@@ -1,5 +1,5 @@
 import java.util.*;
-public class ER1 {
+public class EP1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int tamaño;
