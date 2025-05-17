@@ -1,12 +1,6 @@
 import java.util.*;
-public class Ejercicio2 {
+public class ER2 {
     public static void main(String[] args) {
-        /*
-        Rotar a la Izquierda, permite ingresar tamaño y captura de valores del arreglo, el método
-        rotarIzquierdaArray calcula y muestra el resultado.
-        Si d=2
-        A=[1 2 3 4 5] -> Ainvertido=[3 4 5 1 2]
-        */
         Scanner scanner = new Scanner(System.in);
         System.out.println("De qué tamaño es el vector?");
         int tamaño = scanner.nextInt();

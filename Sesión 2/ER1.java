@@ -1,5 +1,5 @@
 import java.util.*;
-public class Ejercicio1 {
+public class ER1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int tamaño;
@@ -21,7 +21,7 @@ public class Ejercicio1 {
         }
         array += "]";
 
-        int[] vector_int_inv = invertirArray(vector_int, tamaño);
+        int[] vector_int_inv = invertirArray(vector_int);
 
         String arrayInv = "[";
         for (int i = 0; i < tamaño; i++) {
@@ -35,10 +35,10 @@ public class Ejercicio1 {
         scanner.close();
     }
 
-    public static int[] invertirArray(int[] A, int longitud) {
-        int[] Asalida = new int[longitud];
-        for (int i = 0; i < longitud; i++) {
-            Asalida[i] = A[longitud - 1 - i];
+    public static int[] invertirArray(int[] A) {
+        int[] Asalida = new int[A.length];
+        for (int i = 0; i < A.length; i++) {
+            Asalida[i] = A[A.length - 1 - i];
         }
         return Asalida;
     }
