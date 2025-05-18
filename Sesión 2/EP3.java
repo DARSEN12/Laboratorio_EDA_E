@@ -1,6 +1,6 @@
 public class EP3 {
     public static void main(String[] args) {
-        int b = 5;
+        int b = 10;
         trianguloRecursivo1(b);
     }
 

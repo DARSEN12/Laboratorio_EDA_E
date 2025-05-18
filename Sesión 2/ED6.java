@@ -35,4 +35,4 @@ public class ED6 {
 - En cada llamada, "burbujea" el mayor elemento hasta el final y luego reduce el rango.
 - Cuando el rango (cant) es 1 o menos, la recursión termina.
 - imprimir() muestra el arreglo antes y después del ordenamiento.
- */
+*/

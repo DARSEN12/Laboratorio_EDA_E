@@ -1,6 +1,6 @@
 public class EP5 {
     public static void main(String[] args) {
-        int b = 5;
+        int b = 10;
         piramide2D(1, b);
     }
 

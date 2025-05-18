@@ -1,6 +1,6 @@
 public class EP6 {
     public static void main(String[] args) {
-        int b = 6;
+        int b = 10;
         cuadradoRecursivo(1, b);
     }
 
