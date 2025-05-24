@@ -13,7 +13,7 @@ public class ED2 {
         
         Iterator<String> itA = alumnos.iterator();
         while (itA.hasNext()) {
-        System.out.println(itA.next());
+            System.out.println(itA.next());
         }
     }
 }
