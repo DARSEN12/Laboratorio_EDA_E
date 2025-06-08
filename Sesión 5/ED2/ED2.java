@@ -1,3 +1,5 @@
+package ED2;
+
 public class ED2 {
     public static void main(String[] args) {
         QueueList<Integer> cola = new QueueList<>();
@@ -17,4 +19,3 @@ public class ED2 {
         }
     }
 }
-

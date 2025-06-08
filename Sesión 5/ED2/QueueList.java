@@ -1,3 +1,5 @@
+package ED2;
+
 class Nodo<T> {
     T valor;  
     Nodo<T> siguiente; 
@@ -60,4 +62,3 @@ class QueueList<T> {
         System.out.println(); 
     }
 }
-
